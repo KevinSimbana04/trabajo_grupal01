@@ -10,7 +10,7 @@ public class Vehiculos {
     double velocidad_max;
 
     // constructor
-    public Vehiculos(String modelo, String color, String placa, double velocidad_max) {
+    public Vehiculos() {
 
         this.modelo = modelo;
         this.color = color;
