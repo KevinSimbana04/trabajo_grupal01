@@ -32,6 +32,8 @@ public class Vehiculos {
     // Accion 2 ,
     public void velocidad_vehiculo(){
 
+        if (velocidad_max >= velocidad_max){
+            System.out.println("El modelo con mayor velocidad maximo es: " + velocidad_max);
+        }
     }
-
 }
