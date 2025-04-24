@@ -30,7 +30,7 @@ public class Vehiculos {
     }
 
     // Accion 2 ,
-    public void velocidad_velocidad(){
+    public void velocidad_vehiculo(){
 
     }
 
