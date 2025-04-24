@@ -26,14 +26,16 @@ public class Vehiculos {
         System.out.println("Modelo: " + modelo);
         System.out.println("Color: " + color);
         System.out.println("Placa: " + placa);
-        System.out.println("Velocidad max: " + velocidad_max);
+        System.out.println("Velocidad max: " + velocidad_max + "\n");
     }
 
     // Accion 2 ,
     public void velocidad_vehiculo(){
 
+        System.out.println(" Modelo con mayor velocidad \n");
+
         if (velocidad_max >= velocidad_max){
-            System.out.println("El modelo con mayor velocidad maximo es: " + velocidad_max);
+            System.out.println("El modelo con mayor velocidad es: " + modelo);
         }
     }
 }
