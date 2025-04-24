@@ -18,6 +18,7 @@ public class Main {
             vehiculos[i].color = sc.nextLine();
             System.out.println("Ingrese la placa vehiculos");
             vehiculos[i].placa = sc.nextLine();
+            sc.nextLine();
             System.out.println("Ingrese la velocida maxima");
             vehiculos[i].velocidad_max = sc.nextDouble();
 
