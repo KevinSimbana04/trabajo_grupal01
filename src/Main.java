@@ -18,10 +18,9 @@ public class Main {
             vehiculos[i].color = sc.nextLine();
             System.out.println("Ingrese la placa vehiculos");
             vehiculos[i].placa = sc.nextLine();
-            sc.nextLine();
             System.out.println("Ingrese la velocida maxima");
             vehiculos[i].velocidad_max = sc.nextDouble();
-
+            sc.nextLine();
             System.out.println();
         }
 
@@ -29,6 +28,13 @@ public class Main {
         for (Vehiculos emp : vehiculos) { //Ciclo for
             emp.mostrar_vehiculo();
         }
+
+        // compara velocidad entre los tres
+
+        System.out.println("Comparaciones de velocidad:");
+        vehiculos[0].comparar_velocidad(vehiculos[1]);
+        vehiculos[1].comparar_velocidad(vehiculos[2]);
+
         //este es ub ejemplo de commit
         sc.close();
 

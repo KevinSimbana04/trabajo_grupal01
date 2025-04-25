@@ -29,13 +29,15 @@ public class Vehiculos {
         System.out.println("Velocidad max: " + velocidad_max + "\n");
     }
 
-    // Accion 2 ,
-    public void velocidad_vehiculo(){
+    // Accion 2 ,Metodo para comparar velocidad con otro vehículo
 
-        System.out.println(" Modelo con mayor velocidad \n");
-
-        if (velocidad_max >= velocidad_max){
-            System.out.println("El modelo con mayor velocidad es: " + modelo);
+    public void comparar_velocidad(Vehiculos otro) {
+        if (this.velocidad_max > otro.velocidad_max) {
+            System.out.println(this.modelo + " es más rápido que " + otro.modelo);
+        } else if (this.velocidad_max < otro.velocidad_max) {
+            System.out.println(otro.modelo + " es más rápido que " + this.modelo);
+        } else {
+            System.out.println("Ambos modelos tienen la misma velocidad.");
         }
     }
 }
