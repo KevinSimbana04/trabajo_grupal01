@@ -38,19 +38,6 @@ public class Main {
         //este es ub ejemplo de commit
         sc.close();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }

@@ -40,4 +40,5 @@ public class Vehiculos {
             System.out.println("Ambos modelos tienen la misma velocidad.");
         }
     }
+
 }
